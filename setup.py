@@ -12,6 +12,8 @@ install_requires = [
     'networkx',
     'scikit-learn',
     'pandas',
+    'tensorflow~=2.4',
+    'deepchem'
 ]
 
 setup(
