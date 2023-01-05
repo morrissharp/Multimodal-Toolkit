@@ -5,15 +5,13 @@ url = 'https://github.com/georgianpartners/Multimodal-Toolkit'
 
 install_requires = [
     'torch',
-    'transformers==3.1',
+    'transformers',
     'numpy',
     'tqdm',
     'scipy',
     'networkx',
     'scikit-learn',
     'pandas',
-    'tensorflow~=2.4',
-    'deepchem'
 ]
 
 setup(
