@@ -78,7 +78,9 @@ def create_act(act, num_parameters=None):
     if act == 'relu':
         return nn.ReLU()
     elif act == 'prelu':
-        return nn.PReLU(num_parameters)
+        return nn.PReLU()
+    elif act == 'leaky_relu':
+        return nn.LeakyReLU()
     elif act == 'sigmoid':
         return nn.Sigmoid()
     elif act == 'tanh':
