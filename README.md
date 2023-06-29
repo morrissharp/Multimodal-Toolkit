@@ -3,6 +3,8 @@
 --------------------------------------------------------------------------------
 **[Documentation](https://multimodal-toolkit.readthedocs.io/en/latest/index.html)** | **[Colab Notebook](https://multimodal-toolkit.readthedocs.io/en/latest/notes/colab_example.html)** | **[Blog Post](https://medium.com/georgian-impact-blog/how-to-incorporate-tabular-data-with-huggingface-transformers-b70ac45fcfb4)**
 
+This is a forked version from GeorgianIO.
+
 A toolkit for incorporating multimodal data on top of text data for classification
 and regression tasks. It uses HuggingFace transformers as the base model for text features.
 The toolkit adds a combining module that takes the outputs of the transformer in addition to categorical and numerical features
@@ -15,10 +17,10 @@ on the supervised task. For a brief literature review, check out the accompanyin
 
 
 ## Installation
-The code was developed in Python 3.7 with PyTorch and transformers 3.1. It has now been updated to work with transformers 4.25.
+The code was developed in Python 3.7 with PyTorch and transformers 3.1. It has now been updated to work with transformers 4.25. Since this is a forked version of the original, you should clone the notebook and then pip install from the main directory.
 The multimodal specific code is in `multimodal_transformers` folder.
 ```
-pip install multimodal-transformers
+pip install .
 ```
 
 ## Supported Transformers
