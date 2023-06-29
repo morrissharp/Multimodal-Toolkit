@@ -10,7 +10,7 @@ install_requires = [
     'tqdm',
     'scipy',
     'networkx',
-    'scikit-learn',
+    'scikit-learn>=1',
     'pandas',
 ]
 
